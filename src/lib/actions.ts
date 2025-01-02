@@ -30,7 +30,7 @@ export async function getUsers(): Promise<{ users: UserInfo[], userCount: number
   }
 }
 
-export async function addUser(formData: FormData) {
+export async function addUser(formData: FormData): Promise<void> {
   const name = formData.get('name') as string
   const company = formData.get('company') as string
   const email = formData.get('email') as string
@@ -47,7 +47,7 @@ export async function addUser(formData: FormData) {
 
     await connection.end()
 
-    return { success: true }
+    
   } catch (error) {
     console.error('Failed to add user:', error)
     throw new Error('Failed to add user')

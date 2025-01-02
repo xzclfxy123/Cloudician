@@ -8,7 +8,7 @@ import { CopyButton } from "@/components/ui/staking/copy-button";
 import Link from "next/link";
 import { addUser } from "@/lib/actions";
 
-interface PageProps {
+export interface PageProps {
   params: Promise<{ name: string }>;
 }
 
