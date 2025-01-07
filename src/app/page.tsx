@@ -1,9 +1,10 @@
-import BottomPage from "@/components/bottom-page"
+import PartnersPage from "@/components/partners-page"
 import ContactUs from "@/components/contact-us"
 import FeaturesSection from "@/components/features-section"
 import Navbar from "@/components/header"
 import StakingContent from "@/components/staking-content"
 import TopPage from "@/components/top-page"
+import Footer from "@/components/bottomPage"
 
 export default function Page() {
   return (
@@ -13,8 +14,9 @@ export default function Page() {
         <TopPage />
         <FeaturesSection />
         <StakingContent />
-        <BottomPage />
+        <PartnersPage />
         <ContactUs />
+        <Footer />
       </main>
     </div>
   )

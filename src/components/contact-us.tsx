@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 export default function ContactUs() {
   return (
     <div className="min-h-[50vh] bg-gradient-to-br from-blue-50 via-white to-gray-50 flex flex-col justify-center items-center relative">
-      <div className="absolute inset-0 opacity-20">
+      <div className="absolute bottom-0 left-0 right-0 opacity-20">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
@@ -27,7 +27,6 @@ export default function ContactUs() {
           Get in Touch
         </Button>
         </Link>
-        
       </div>
     </div>
   );

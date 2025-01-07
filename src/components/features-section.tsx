@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function FeaturesSection() {
   return (
     <section className="w-full bg-background py-16 px-4 md:py-24 font-msyahei">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[86rem] mx-auto">
         {/* Header Section */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Why choose Cloudician?
+            Why Choose Cloudician?
           </h2>
           <p className="text-muted-foreground max-w-3xl mx-auto text-lg">
             Cloudician offers the most secure and stable enterprise-grade Staking
@@ -20,7 +20,7 @@ export default function FeaturesSection() {
           {/* Left Side - Image */}
           <div className="relative">
             <Image
-              src="/placeholder.svg"
+              src="/background_img.png"
               alt="Network Illustration"
               width={600}
               height={500}

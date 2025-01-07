@@ -1,20 +1,21 @@
 "use client";
 import { addUser } from "@/lib/actions";
+import Link from "next/link";
 
 export default function Page() {
-//   const handleSubmit = (e: React.FormEvent) => {
-//     e.preventDefault();
+  //   const handleSubmit = (e: React.FormEvent) => {
+  //     e.preventDefault();
 
-//     setTimeout(() => {
-//       const popup = document.getElementById("popup");
-//       if (popup) {
-//         popup.style.display = "flex";
-//         setTimeout(() => {
-//           popup.style.display = "none";
-//         }, 2000);
-//       }
-//     }, 1000);
-//   };
+  //     setTimeout(() => {
+  //       const popup = document.getElementById("popup");
+  //       if (popup) {
+  //         popup.style.display = "flex";
+  //         setTimeout(() => {
+  //           popup.style.display = "none";
+  //         }, 2000);
+  //       }
+  //     }, 1000);
+  //   };
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-blue-100 flex justify-center items-center">
       <div className="max-w-4xl w-full bg-white shadow-md rounded-lg p-8">
@@ -22,13 +23,16 @@ export default function Page() {
           Get in Touch
         </h1>
         <p className="text-center text-gray-600 mb-8">
-          如果您对我们的服务或合作有任何疑问，请随时联系我们。我们很乐意与任何人交流。
+          If you have any questions about our services or cooperation, please
+          feel free to contact us. 
           <br />
-          您可以发送电子邮件至{" "}
-          <a href="mailto:email@Cloudician" className="text-blue-500 underline">
+          We are happy to talk to anyone.
+          <br />
+          You can contact us by sending an email to support{" "}
+          <Link href="mailto:email@Cloudician" className="text-blue-500 underline">
             email@Cloudician
-          </a>{" "}
-          或在下方留言与我们联系。
+          </Link>{" "}
+          or by leaving a comment below
         </p>
         <form action={addUser} className="space-y-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -64,7 +68,7 @@ export default function Page() {
             type="submit"
             className="w-full py-3 bg-gradient-to-r from-blue-400 to-blue-600 text-white rounded-lg hover:opacity-90 transition-opacity"
           >
-            提交
+            Submit
           </button>
         </form>
 

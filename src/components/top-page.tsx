@@ -4,11 +4,11 @@ import { Button } from "./ui/button";
 export default function TopPage() {
   return (
     <div className="flex justify-center items-center min-h-[80vh] bg-gradient-to-br from-blue-50 via-white to-gray-50">
-      <div className="max-w-6xl mx-auto px-4 py-16">
+      <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="text-center md:text-left space-y-6">
-            <h1 className="text-5xl">
-              Professional Staking+Web3 infrastructure provider
+          <div className="text-center md:text-left space-y-6 tracking-wider">
+            <h1 className="text-[2.5rem]/[2.5rem] font-semibold leading-normal">
+              Professional Staking+Web3 Infrastructure Provider
             </h1>
             <div className="space-y-8">
               <div className="text-lg text-center md:text-left">
