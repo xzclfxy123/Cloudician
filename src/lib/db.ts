@@ -139,7 +139,7 @@ export async function verifyAdminCredentials(
   );
   if (Array.isArray(rows) && rows.length > 0) {
     const admin = rows[0] as any;
-    return admin.password === password; // In a real application, use bcrypt to compare hashed passwords
+    return admin.password === password; 
   }
   return false;
 }

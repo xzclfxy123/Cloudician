@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/schema/schema_loacl.sql
+
+/src/scripts/create_password.ts

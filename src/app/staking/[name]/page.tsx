@@ -27,23 +27,21 @@ export default async function ValidatorPage({ params }: PageProps) {
 
   const guides: string[] = JSON.parse(platform.staking_guide) || "[]";
 
-  // Function to get SVG image path based on URL
   const getSvgPath = (url: string): string => {
-    if (url.includes("twitter.com")) {
-      return "/url/twitter.svg";
+    if (url.includes("x.com")) {
+      return "/url/x.svg";
     } else if (url.includes("medium.com")) {
       return "/url/medium.svg";
     } else if (url.includes("t.me") || url.includes("telegram")) {
       return "/url/telegram.svg";
     } else {
-      return "/url/website.svg"; // Default website icon
+      return "/url/website.svg"; 
     }
   };
 
-  // Function to get alt text based on URL
   const getAltText = (url: string): string => {
-    if (url.includes("twitter.com")) {
-      return "Twitter";
+    if (url.includes("x.com")) {
+      return "X";
     } else if (url.includes("medium.com")) {
       return "Medium";
     } else if (url.includes("t.me") || url.includes("telegram")) {

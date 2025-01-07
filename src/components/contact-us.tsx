@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { Button } from "./ui/button";
+
 export default function ContactUs() {
   return (
     <div className="min-h-[50vh] bg-gradient-to-br from-blue-50 via-white to-gray-50 flex flex-col justify-center items-center relative">
@@ -19,9 +22,12 @@ export default function ContactUs() {
           If you have any questions about our services, please do not hesitate
           to contact us. We are happy to talk to anyone.
         </p>
-        <button className="mt-8 px-6 py-3 text-blue-600 font-medium border-2 border-blue-600 bg-white rounded-full shadow hover:bg-blue-100 transition-all duration-300">
+        <Link href={"/contact_us"}>
+          <Button className="mt-8 px-6 py-3 text-blue-600 font-medium border-2 border-blue-600 bg-white rounded-full shadow hover:bg-blue-100 transition-all duration-300">
           Get in Touch
-        </button>
+        </Button>
+        </Link>
+        
       </div>
     </div>
   );
