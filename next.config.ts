@@ -5,7 +5,9 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol:"https",
-        hostname:"www.cloudician.xyz"
+        hostname:"www.cloudician.xyz",
+        port:"3000",
+        pathname:"/uploads/**"
       }
     ]
   }

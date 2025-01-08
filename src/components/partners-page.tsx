@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function PartnersPage() {
   return (
     <div className="min-h-[75vh] bg-gradient-to-br from-blue-50 via-white to-gray-50 flex justify-center items-center">
-      <div className="max-w-8xl px-4 py-8 space-y-24">
+      <div className="max-w-[86rem] px-4 py-8 lg:space-y-24">
         <h2 className="text-4xl font-semibold text-center text-gray-800 mb-12">
           Our Trusted Partners
         </h2>

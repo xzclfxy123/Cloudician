@@ -18,14 +18,14 @@ export default function ContactUs() {
       </div>
       <div className="relative text-center">
         <h2 className="text-4xl font-bold">Contact Us</h2>
-        <p className="text-lg mt-4">
+        <p className="text-lg m-4">
           If you have any questions about our services, please do not hesitate
           to contact us. We are happy to talk to anyone.
         </p>
         <Link href={"/contact_us"}>
           <Button className="mt-8 px-6 py-3 text-blue-600 font-medium border-2 border-blue-600 bg-white rounded-full shadow hover:bg-blue-100 transition-all duration-300">
-          Get in Touch
-        </Button>
+            Get in Touch
+          </Button>
         </Link>
       </div>
     </div>

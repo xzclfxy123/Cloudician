@@ -7,11 +7,11 @@ export default function TopPage() {
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="text-center md:text-left space-y-6 tracking-wider">
-            <h1 className="text-[2.5rem]/[2.5rem] font-semibold leading-normal">
-              Professional Staking+Web3 Infrastructure Provider
+            <h1 className="text-3xl sm:text-[2.5rem]/[2.5rem] font-semibold leading-normal">
+              Professional Staking & Web3 Infrastructure Provider
             </h1>
             <div className="space-y-8">
-              <div className="text-lg text-center md:text-left">
+              <div className="text-lg text-left">
                 Providing enterprise level Staking and professional level Web3
                 infrastructure services for Token holders and developers
                 investing in and building the Web3 ecosystem, Terminet is your

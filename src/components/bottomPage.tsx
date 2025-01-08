@@ -3,17 +3,19 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-center items-center min-h-[45vh] bg-gradient-to-br from-blue-50 via-white to-gray-50 w-full py-4 sm:py-6 md:py-8 lg:py-10">
-      <div className="container px-4 sm:px-6 md:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center">
-          <div className="col-span-1 sm:col-span-2 md:col-span-1 ">
+    <footer className="flex flex-col justify-center items-center min-h-[45vh] bg-gradient-to-br from-blue-50 via-white to-gray-50 w-full pb-4 sm:pb-6 md:pb-8 lg:pb-12 pt-8 sm:pt-12 md:pt-16 lg:pt-20">
+      <div className="container px-4 sm:px-6 md:px-8 flex flex-col justify-between flex-grow">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 sm:justify-items-center mx-2 sm:mx-0">
+          <div className="col-span-1 sm:col-span-2 md:col-span-1 space-y-4">
             <h3 className="text-lg font-semibold">Cloudician</h3>
-            <Link href={"/"} className="mt-2 text-sm text-muted-foreground">
-              Building A Web3 World
-            </Link>
+            <div>
+              <Link href={"/"} className="mt-2 text-sm text-muted-foreground">
+                Building A Web3 World
+              </Link>
+            </div>
           </div>
 
-          <div>
+          <div className="space-y-4">
             <h3 className="text-lg font-semibold">Products</h3>
             <ul className="mt-2 space-y-2 text-sm">
               <li>
@@ -27,12 +29,12 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className="space-y-4">
             <h3 className="text-lg font-semibold">Community</h3>
-            <ul className="mt-2 space-y-2 text-sm">
+            <ul className="mt-2 space-y-4 text-sm">
               <li>
                 <Link
-                  href="https://twitter.com"
+                  href="https://x.com/CloudicianTech"
                   className="flex items-center text-muted-foreground hover:text-foreground space-x-2"
                 >
                   <Image
@@ -42,10 +44,11 @@ export default function Footer() {
                     height={16}
                     className="max-w-full h-auto"
                   />
-                  <div>X</div>
+                  <div className="pl-2">X</div>
                 </Link>
               </li>
-              <li>
+
+              {/* <li>
                 <Link
                   href="https://medium.com"
                   className="flex items-center text-muted-foreground hover:text-foreground space-x-2"
@@ -90,11 +93,11 @@ export default function Footer() {
                   </svg>
                   Discord
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
-          <div>
+          <div className="space-y-4">
             <h3 className="text-lg font-semibold">Company</h3>
             <ul className="mt-2 space-y-2 text-sm">
               <li>

@@ -24,13 +24,16 @@ export default function Page() {
         </h1>
         <p className="text-center text-gray-600 mb-8">
           If you have any questions about our services or cooperation, please
-          feel free to contact us. 
+          feel free to contact us.
           <br />
           We are happy to talk to anyone.
           <br />
           You can contact us by sending an email to support{" "}
-          <Link href="mailto:email@Cloudician" className="text-blue-500 underline">
-            email@Cloudician
+          <Link
+            href="mailto:alex.fu@cloudician.xyz"
+            className="text-blue-500 underline"
+          >
+            alex.fu@cloudician.xyz
           </Link>{" "}
           or by leaving a comment below
         </p>
