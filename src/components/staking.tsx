@@ -289,7 +289,6 @@ export default function StakingPage() {
                   width={60}
                   height={60}
                   className="rounded-lg object-contain"
-                  unoptimized
                 />
                 <button
                   onClick={clearImage}
@@ -631,7 +630,6 @@ export default function StakingPage() {
                             width={32}
                             height={32}
                             className="rounded-lg object-contain"
-                            unoptimized
                           />
                           {platform.name}
                         </div>
