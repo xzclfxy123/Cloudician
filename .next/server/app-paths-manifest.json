@@ -1,0 +1,19 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/admin-logs/route": "app/api/admin-logs/route.js",
+  "/api/auth/route": "app/api/auth/route.js",
+  "/api/platforms/route": "app/api/platforms/route.js",
+  "/api/current-admin/route": "app/api/current-admin/route.js",
+  "/api/upload/route": "app/api/upload/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/admin/login/page": "app/admin/login/page.js",
+  "/page": "app/page.js",
+  "/contact_us/page": "app/contact_us/page.js",
+  "/admin/forgot-password/page": "app/admin/forgot-password/page.js",
+  "/test/page": "app/test/page.js",
+  "/staking/[name]/page": "app/staking/[name]/page.js",
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/admin/dashboard/users/page": "app/admin/dashboard/users/page.js",
+  "/admin/dashboard/content/staking/page": "app/admin/dashboard/content/staking/page.js",
+  "/admin/dashboard/content/page": "app/admin/dashboard/content/page.js"
+}
