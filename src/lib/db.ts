@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import mysql, { RowDataPacket } from "mysql2/promise";
+import bcrypt from 'bcryptjs';
 
 const pool = mysql.createPool({
   host: process.env.DB_HOST,
@@ -139,7 +140,8 @@ export async function verifyAdminCredentials(
   );
   if (Array.isArray(rows) && rows.length > 0) {
     const admin = rows[0] as any;
-    return admin.password === password; 
+    const isPasswordValid = await bcrypt.compare(password, admin.password);
+    return isPasswordValid;
   }
   return false;
 }
