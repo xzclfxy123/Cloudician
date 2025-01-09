@@ -22,6 +22,7 @@ export function StakingCard({ name, logo, rewardMin, rewardMax }: StakingCardPro
             alt={`${name} logo`}
             fill
             className="object-contain"
+            unoptimized
           />
         </div>
         <div className="space-y-2 text-center">

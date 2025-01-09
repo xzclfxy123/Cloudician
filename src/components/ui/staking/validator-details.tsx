@@ -39,6 +39,7 @@ export default function ValidatorDetails({ platform }: ValidatorDetailsProps) {
                 alt={`${platform.name} logo`}
                 fill
                 className="object-contain"
+                unoptimized
               />
             </div>
           </div>

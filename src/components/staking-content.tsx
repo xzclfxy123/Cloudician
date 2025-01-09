@@ -87,6 +87,7 @@ export default function StakingContent() {
                       width={96}
                       height={96}
                       className="object-contain"
+                      unoptimized
                     />
                   </div>
 
