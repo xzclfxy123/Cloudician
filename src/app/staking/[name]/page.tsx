@@ -68,6 +68,7 @@ export default async function ValidatorPage({ params }: PageProps) {
               alt={`${platform.name} logo`}
               fill
               className="object-contain"
+              unoptimized
             />
           </div>
         </div>
@@ -152,6 +153,7 @@ export default async function ValidatorPage({ params }: PageProps) {
               alt={`About ${platform.name}`}
               fill
               className="object-contain"
+              unoptimized
             />
           </div>
         </div>
