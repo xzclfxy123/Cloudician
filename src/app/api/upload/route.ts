@@ -15,12 +15,10 @@ export async function POST(request: Request) {
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
 
-    // Generate unique filename
     const uniqueId = crypto.randomBytes(16).toString('hex');
     const extension = file.name.split('.').pop();
     const filename = `${uniqueId}.${extension}`;
     
-    // Save to public directory
     const path = join(process.cwd(), 'public/uploads', filename);
     await writeFile(path, buffer);
     
