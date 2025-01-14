@@ -54,6 +54,7 @@ export default function FeaturesSection() {
                   height={180}
                   className="w-full h-auto object-contain"
                   priority
+                  unoptimized
                 />
               </div>
               <div className="w-full md:w-1/2 space-y-8">
