@@ -6,27 +6,27 @@ export default function FeaturesSection() {
     {
       title: "Complete technology",
       description: "We have extensive experience in staking and validator services, node API services, basic tool development, etc. We have deployed nearly 10+ public chain validators, for example, 0G.AI, conflux, fetchai, BNB greenfield, irisnet, and privacy computing network oasis.",
-      icon: "/background_img.png",
+      icon: "/Complete_Technology.png",
     },
     {
       title: "Rich Experience",
       description: "We have extensive experience in high-performance databases, media streaming, and high-speed private data storage networks.",
-      icon: "/background_img.png",
+      icon: "/Rich_Experience.png",
     },
     {
       title: "Professional RPC",
       description: "The peak value of RPC service calls we provided in BSC can reach more than 10 million/day, and we have passed the professional RPC service audit of The Graph Foundation.",
-      icon: "/background_img.png",
+      icon: "/Professional_RPC.png",
     },
     {
       title: "Partner",
       description: "We are an ecological partner of Alibaba Cloud, focusing on providing services such as key custody, data indexing, security, and ecological cooperation for Web3 projects.",
-      icon: "/background_img.png",
+      icon: "/Partner.png",
     },
     {
       title: "Ecological advancement",
       description: "We have deep cooperation with 100+ Web3 projects and can promote projects to use GreenField storage. They are both project parties and developers, and can provide more transactions and activity for the ecology.",
-      icon: "/background_img.png",
+      icon: "/Ecological_Advancement.png",
     },
   ];
 

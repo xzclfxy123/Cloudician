@@ -32,20 +32,28 @@ export default async function ValidatorPage({ params }: PageProps) {
       return "/url/x.svg";
     } else if (url.includes("medium.com")) {
       return "/url/medium.svg";
+    } else if (url.includes("twitter.com")) {
+      return "/url/x.svg";
     } else if (url.includes("t.me") || url.includes("telegram")) {
       return "/url/telegram.svg";
+    } else if (url.includes("discord.com") || url.includes("discord.gg")) {
+      return "/url/discord.svg";
     } else {
-      return "/url/website.svg"; 
+      return "/url/website.svg";
     }
   };
 
   const getAltText = (url: string): string => {
     if (url.includes("x.com")) {
       return "X";
+    } else if (url.includes("twitter.com")) {
+      return "Twitter";
     } else if (url.includes("medium.com")) {
       return "Medium";
     } else if (url.includes("t.me") || url.includes("telegram")) {
       return "Telegram";
+    } else if (url.includes("discord.com") || url.includes("discord.gg")) {
+      return "Discord";
     } else {
       return "Website";
     }
