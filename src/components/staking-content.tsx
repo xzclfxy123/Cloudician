@@ -80,13 +80,13 @@ export default function StakingContent() {
                 <div className="flex flex-col items-center text-center space-y-6">
                   <h2 className="text-xl font-semibold">{platform.name}</h2>
 
-                  <div className="relative w-24 h-24">
+                  <div className="flex w-24 h-24">
                     <Image
                       src={platform.logo_url}
                       alt={`${platform.name} logo`}
                       width={96}
                       height={96}
-                      className="object-contain"
+                      className="w-full h-auto object-contain"
                     />
                   </div>
 

@@ -12,7 +12,7 @@ interface ValidatorDetailsProps {
 
 export default function ValidatorDetails({ platform }: ValidatorDetailsProps) {
   const [copied, setCopied] = useState(false)
-  const validatorAddress = "Terminet[0x3bf33bc24676cc81cad593ac53fff4dff60d65cf02a7aab0bc1b29fcadad0d6784e093c51f9d51a200ab5dce8cea3cb97ceff8fd1c806d9fad4f429ff51cde1e]"
+  const validatorAddress = "Cloudician[0x3bf33bc24676cc81cad593ac53fff4dff60d65cf02a7aab0bc1b29fcadad0d6784e093c51f9d51a200ab5dce8cea3cb97ceff8fd1c806d9fad4f429ff51cde1e]"
 
   const handleCopyAddress = async () => {
     try {
