@@ -48,7 +48,7 @@ export default function PartnersPage() {
           <Link href={"/"}>
             <div className="flex justify-center items-center bg-white rounded-lg shadow-lg p-8 h-48">
               <Image
-                src={"/branding/monallo.png"}
+                src={"/branding/monallo_logo.png"}
                 alt="Monallo"
                 width={160}
                 height={72}
