@@ -33,11 +33,23 @@ export default function PartnersPage() {
             </div>
           </Link>
 
-          <Link href={"https://dework.xyz/"}>
+          <Link href={"https://payment.deworkhub.com/"}>
             <div className="flex justify-center items-center bg-white rounded-lg shadow-lg p-8 h-48">
               <Image
                 src={"/branding/DeworkHub.png"}
                 alt="DeworkHub"
+                width={160}
+                height={72}
+                className="max-w-full h-auto"
+              />
+            </div>
+          </Link>
+
+          <Link href={"/"}>
+            <div className="flex justify-center items-center bg-white rounded-lg shadow-lg p-8 h-48">
+              <Image
+                src={"/branding/monallo.png"}
+                alt="Monallo"
                 width={160}
                 height={72}
                 className="max-w-full h-auto"
