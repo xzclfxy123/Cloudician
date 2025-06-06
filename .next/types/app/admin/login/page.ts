@@ -1,4 +1,4 @@
-// File: C:\Users\a1897\Desktop\react\cloudician\src\app\admin\login\page.tsx
+// File: /home/Cloudician/src/app/admin/login/page.tsx
 import * as entry from '../../../../../src/app/admin/login/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

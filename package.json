@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3004",
     "lint": "next lint",
     "cp": "ts-node src/scripts/create_password.ts",
     "build-no-eslint": "set NEXT_DISABLE_ESLINT=true && next build"
