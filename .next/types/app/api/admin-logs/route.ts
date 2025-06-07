@@ -1,4 +1,4 @@
-// File: /home/Cloudician/src/app/api/admin-logs/route.ts
+// File: C:\Users\a1897\Desktop\react\cloudician\src\app\api\admin-logs\route.ts
 import * as entry from '../../../../../src/app/api/admin-logs/route.js'
 import type { NextRequest } from 'next/server.js'
 

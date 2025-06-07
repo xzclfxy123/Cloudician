@@ -1,4 +1,4 @@
-// File: /home/Cloudician/src/app/staking/[name]/page.tsx
+// File: C:\Users\a1897\Desktop\react\cloudician\src\app\staking\[name]\page.tsx
 import * as entry from '../../../../../src/app/staking/[name]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
