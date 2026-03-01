@@ -128,6 +128,30 @@ export default function PartnersPage() {
               />
             </div>
           </Link>
+
+          <Link href={"https://www.eaglecloud.com/"}>
+            <div className="flex justify-center items-center bg-white rounded-lg shadow-lg p-8 h-48">
+              <Image
+                src={"/branding/aquila.png"}
+                alt="aquila"
+                width={160}
+                height={72}
+                className="max-w-full h-auto"
+              />
+            </div>
+          </Link>
+
+          <Link href={"https://www.thetatoken.org/"}>
+            <div className="flex justify-center items-center bg-white rounded-lg shadow-lg p-8 h-48">
+              <Image
+                src={"/branding/theta.png"}
+                alt="theta"
+                width={160}
+                height={72}
+                className="max-w-full h-auto"
+              />
+            </div>
+          </Link>
         </div>
       </div>
     </div>
